@@ -2,6 +2,7 @@
 
 Writes one single-line office joke to $MAKEFUN_OUTPUT_DIR/entry.txt
 (default: the current directory), with no trailing newline.
+The joke is validated as a single line within the limit first.
 """
 import os
 
